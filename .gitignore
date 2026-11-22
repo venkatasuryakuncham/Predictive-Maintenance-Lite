@@ -1,0 +1,64 @@
+## Build output
+bin/
+obj/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ncb
+*.sdf
+*.cache
+*.psess
+*.vsp
+*.vspx
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.vspscc
+*.vssscc
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+!packages/.gitkeep
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Rider / JetBrains
+.idea/
+*.DotSettings.user
+_ReSharper*/
+
+## Test results
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+## Logs
+*.log
+logs/
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## Publish output
+**/publish/
+**/PublishProfiles/
+
+## Entity Framework migrations script (generated)
+*.mdf
+*.ldf
+*.ndf
